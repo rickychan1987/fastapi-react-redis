@@ -17,9 +17,9 @@ app.add_middleware(
 
 # This should be difference database, but for save money use one is ok.
 redis = get_redis_connection(
-    host="redis-12486.c290.ap-northeast-1-2.ec2.cloud.redislabs.com",
-    port=12486,
-    password="HX77P42mXD11gDkDDNc8qta7f0olagJU",
+    host="<Your_Redis_Public_Endpoint>",
+    port="int <Your Redis Port>",
+    password="<Your Redis Default user password>",
     decode_responses=True
 )
 
